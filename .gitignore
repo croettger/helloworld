@@ -1,0 +1,42 @@
+*.class
+
+# Package Files
+*.jar
+*.war
+*.ear
+
+# build dirs
+out
+target
+build
+.gradle
+
+# Ignore Gradle GUI config
+gradle-app.setting
+
+# Avoid ignoring Gradle wrapper jar file (.jar files are usually ignored)
+!gradle-wrapper.jar
+
+# IntelliJ
+*.iml
+*.ipr
+*.iws
+.idea
+
+!doc/codestyle/settings.jar
+
+# temp
+*.*~
+
+# Mac OS X
+.DS_Store
+
+# local module cache
+node_modules
+nodejs
+bower_components
+typings
+!typings/jquery-simple.d.ts
+
+# repacked client
+quartermaster/src/main/webapp
