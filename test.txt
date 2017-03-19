@@ -1,2 +1,1 @@
-Dies ist ein Test
-asd
+Dies ist ein Test.
